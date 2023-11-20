@@ -11,6 +11,7 @@ import {
 import {GameEngine} from 'react-native-game-engine';
 import entities from './src/entities';
 import Physics from './physics';
+import Sound from 'react-native-sound';
 export default function App() {
   const [running, setRunning] = useState(false);
   const [gameEngine, setGameEngine] = useState(null);
@@ -18,6 +19,7 @@ export default function App() {
   // useEffect(() => {
   //   setRunning(true);
   // }, []);
+
   return (
     // <SafeAreaView style={styles.container}>
     <ImageBackground source={require('./src/assets/bg.png')} style={styles.bg}>
