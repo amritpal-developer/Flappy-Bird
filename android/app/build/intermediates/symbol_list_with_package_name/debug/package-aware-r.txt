@@ -963,6 +963,10 @@ menu example_menu
 menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw die
+raw flap
+raw flappy_bird_hit_sound
+raw swoosh
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
