@@ -6,53 +6,53 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+8-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+9-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:3:5-67
-11-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:3:22-64
+11-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:3:22-64
 12
 13    <application
-13-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:5:5-24:19
+13-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:5:5-24:19
 14        android:name="com.flappy_bird.MainApplication"
-14-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:6:7-38
+14-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:6:7-38
 15        android:allowBackup="false"
-15-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:10:7-34
+15-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:10:7-34
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.7.0] /Users/novomac/.gradle/caches/transforms-3/f305293bb2bec18cc5bc10485837a223/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 17        android:icon="@mipmap/ic_launcher"
-17-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:8:7-41
+17-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:8:7-41
 18        android:label="@string/app_name"
-18-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:7:7-39
+18-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:7:7-39
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:9:7-52
+19-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:9:7-52
 20        android:theme="@style/AppTheme" >
-20-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:11:7-38
+20-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:11:7-38
 21        <activity
-21-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:12:7-23:18
+21-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:12:7-23:18
 22            android:name="com.flappy_bird.MainActivity"
-22-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:13:9-37
+22-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:13:9-37
 23            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-23-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:15:9-118
+23-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:15:9-118
 24            android:exported="true"
-24-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:18:9-32
+24-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:18:9-32
 25            android:label="@string/app_name"
-25-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:14:9-41
+25-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:14:9-41
 26            android:launchMode="singleTask"
-26-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:16:9-40
+26-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:16:9-40
 27            android:windowSoftInputMode="adjustResize" >
-27-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:17:9-51
+27-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:17:9-51
 28            <intent-filter>
-28-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:19:9-22:25
+28-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:19:9-22:25
 29                <action android:name="android.intent.action.MAIN" />
-29-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:20:13-65
-29-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:20:21-62
+29-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:20:13-65
+29-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:20:21-62
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:21:13-73
-31-->/Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:21:23-70
+31-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:21:13-73
+31-->/Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:21:23-70
 32            </intent-filter>
 33        </activity>
 34

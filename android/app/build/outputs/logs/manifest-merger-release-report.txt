@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
 MERGED from [com.facebook.react:react-android:0.72.6] /Users/novomac/.gradle/caches/transforms-3/f8e6a105d15674e8a20a57dcc888a3c4/transformed/jetified-react-android-0.72.6-release/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:hermes-android:0.72.6] /Users/novomac/.gradle/caches/transforms-3/2d9a86e09e23daf2c9fb2ed677a119ae/transformed/jetified-hermes-android-0.72.6-release/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-sound] /Users/PractiseGame/Flappy-Bird/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-8:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/novomac/.gradle/caches/transforms-3/397d6576bfafbb92d70b3a43d35972aa/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/novomac/.gradle/caches/transforms-3/befc6a9afb69fc2b250289c3f5230eb2/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.autofill:autofill:1.1.0] /Users/novomac/.gradle/caches/transforms-3/941ebbed4044c9cedcedef8b25213575/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -52,29 +53,29 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/novomac/.gradle/
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/novomac/.gradle/caches/transforms-3/08c571d670b65d9d7363e62b1e227260/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/novomac/.gradle/caches/transforms-3/5431911d625bddabbe6aa8964240b620/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/novomac/.gradle/caches/transforms-3/4cdfbdda1aa76cc773127bd57891d7ee/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
 	package
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:3:5-67
+ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:3:5-67
 	android:name
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:3:22-64
 application
-ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/novomac/.gradle/caches/transforms-3/f7a73f1f018235a594ce99378390f016/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/novomac/.gradle/caches/transforms-3/f7a73f1f018235a594ce99378390f016/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/novomac/.gradle/caches/transforms-3/83b996c429d2cd6248b915586cff418a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
@@ -90,49 +91,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/novo
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/novomac/.gradle/caches/transforms-3/f305293bb2bec18cc5bc10485837a223/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:7:7-39
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:7:7-39
 	android:roundIcon
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:9:7-52
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:9:7-52
 	android:icon
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:8:7-41
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:8:7-41
 	android:allowBackup
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:10:7-34
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:10:7-34
 	android:theme
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:11:7-38
 	android:name
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:6:7-38
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:6:7-38
 activity#com.flappy_bird.MainActivity
-ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:12:7-23:18
+ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:12:7-23:18
 	android:label
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:14:9-41
 	android:launchMode
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:16:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:exported
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:18:9-32
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:18:9-32
 	android:configChanges
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:15:9-118
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:15:9-118
 	android:name
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:13:9-37
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:13:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml:21:23-70
 uses-sdk
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 MERGED from [com.facebook.react:react-android:0.72.6] /Users/novomac/.gradle/caches/transforms-3/f8e6a105d15674e8a20a57dcc888a3c4/transformed/jetified-react-android-0.72.6-release/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.72.6] /Users/novomac/.gradle/caches/transforms-3/f8e6a105d15674e8a20a57dcc888a3c4/transformed/jetified-react-android-0.72.6-release/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:hermes-android:0.72.6] /Users/novomac/.gradle/caches/transforms-3/2d9a86e09e23daf2c9fb2ed677a119ae/transformed/jetified-hermes-android-0.72.6-release/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:hermes-android:0.72.6] /Users/novomac/.gradle/caches/transforms-3/2d9a86e09e23daf2c9fb2ed677a119ae/transformed/jetified-hermes-android-0.72.6-release/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-sound] /Users/PractiseGame/Flappy-Bird/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-44
+MERGED from [:react-native-sound] /Users/PractiseGame/Flappy-Bird/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-44
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/novomac/.gradle/caches/transforms-3/397d6576bfafbb92d70b3a43d35972aa/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/novomac/.gradle/caches/transforms-3/397d6576bfafbb92d70b3a43d35972aa/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/novomac/.gradle/caches/transforms-3/befc6a9afb69fc2b250289c3f5230eb2/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
@@ -225,16 +228,16 @@ MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/novomac/.gradle/caches/tra
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/novomac/.gradle/caches/transforms-3/5431911d625bddabbe6aa8964240b620/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/novomac/.gradle/caches/transforms-3/4cdfbdda1aa76cc773127bd57891d7ee/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/novomac/.gradle/caches/transforms-3/4cdfbdda1aa76cc773127bd57891d7ee/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/PractiseGame/flappy_bird/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/PractiseGame/Flappy-Bird/android/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/novomac/.gradle/caches/transforms-3/f7a73f1f018235a594ce99378390f016/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/novomac/.gradle/caches/transforms-3/83b996c429d2cd6248b915586cff418a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

@@ -26,6 +26,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/Users/PractiseGame/Flappy-Bird/android@@:react-native-sound::release"
+      jars="/Users/PractiseGame/Flappy-Bird/node_modules/react-native-sound/android/build/.transforms/863dc6a98536cbf64c017b1241acf2de/transformed/out/jars/classes.jar:/Users/PractiseGame/Flappy-Bird/node_modules/react-native-sound/android/build/.transforms/863dc6a98536cbf64c017b1241acf2de/transformed/out/jars/libs/R.jar"
+      resolved="flappy_bird:react-native-sound:unspecified"
+      folder="/Users/PractiseGame/Flappy-Bird/node_modules/react-native-sound/android/build/.transforms/863dc6a98536cbf64c017b1241acf2de/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.appcompat:appcompat:1.4.1@aar"
       jars="/Users/novomac/.gradle/caches/transforms-3/397d6576bfafbb92d70b3a43d35972aa/transformed/appcompat-1.4.1/jars/classes.jar"
       resolved="androidx.appcompat:appcompat:1.4.1"

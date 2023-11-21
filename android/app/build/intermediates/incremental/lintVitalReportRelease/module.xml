@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="/Users/PractiseGame/flappy_bird/android/app"
+    dir="/Users/PractiseGame/Flappy-Bird/android/app"
     name=":app"
     type="APP"
     maven="flappy_bird:app:"

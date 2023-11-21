@@ -16,6 +16,10 @@
         "source": "com.flappy_bird.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "com.flappy_bird.app-merged_res-6:/drawable-mdpi_src_assets_track.jpg.flat",
+        "source": "com.flappy_bird.app-res-0:/drawable-mdpi/src_assets_track.jpg"
+    },
+    {
         "merged": "com.flappy_bird.app-merged_res-6:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "com.flappy_bird.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
@@ -26,6 +30,18 @@
     {
         "merged": "com.flappy_bird.app-merged_res-6:/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "com.flappy_bird.app-main-7:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.flappy_bird.app-merged_res-6:/raw_die.mp3.flat",
+        "source": "com.flappy_bird.app-main-7:/raw/die.mp3"
+    },
+    {
+        "merged": "com.flappy_bird.app-merged_res-6:/raw_flap.mp3.flat",
+        "source": "com.flappy_bird.app-main-7:/raw/flap.mp3"
+    },
+    {
+        "merged": "com.flappy_bird.app-merged_res-6:/raw_flappy_bird_hit_sound.mp3.flat",
+        "source": "com.flappy_bird.app-main-7:/raw/flappy_bird_hit_sound.mp3"
     },
     {
         "merged": "com.flappy_bird.app-merged_res-6:/mipmap-xhdpi_ic_launcher.png.flat",
@@ -50,6 +66,10 @@
     {
         "merged": "com.flappy_bird.app-merged_res-6:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "com.flappy_bird.app-main-7:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.flappy_bird.app-merged_res-6:/raw_swoosh.mp3.flat",
+        "source": "com.flappy_bird.app-main-7:/raw/swoosh.mp3"
     },
     {
         "merged": "com.flappy_bird.app-merged_res-6:/drawable-mdpi_src_assets_bird.png.flat",
