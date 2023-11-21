@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from "react";
 import {
   ImageBackground,
   SafeAreaView,
@@ -7,55 +7,67 @@ import {
   TouchableOpacity,
   View,
   Platform,
-} from 'react-native';
-import {GameEngine} from 'react-native-game-engine';
-import entities from './src/entities';
-import Physics from './physics';
-import Sound from 'react-native-sound';
+} from "react-native";
+import { GameEngine } from "react-native-game-engine";
+import entities from "./src/entities";
+import Physics from "./physics";
+import Sound from "react-native-sound";
 export default function App() {
   const [running, setRunning] = useState(false);
   const [gameEngine, setGameEngine] = useState(null);
   const [currentPoints, setCurrentPoints] = useState(0);
-  // useEffect(() => {
-  //   setRunning(true);
-  // }, []);
 
+  function soundHandle(soundTitle) {
+    var flap = new Sound(soundTitle + ".mp3", Sound.MAIN_BUNDLE, (error) => {
+      if (error) {
+        console.log("failed to load the sound", error);
+        return;
+      }
+      flap.play();
+    });
+  }
   return (
     // <SafeAreaView style={styles.container}>
-    <ImageBackground source={require('./src/assets/bg.png')} style={styles.bg}>
+    <ImageBackground source={require("./src/assets/bg.png")} style={styles.bg}>
       <Text
-        style={[styles.points, Platform.OS == 'android' ? {} : {top: '5%'}]}>
-        {currentPoints}
+        style={[styles.points, Platform.OS == "android" ? {} : { top: "5%" }]}
+      >
+        {"Score : " + currentPoints}
       </Text>
       <GameEngine
-        ref={ref => {
+        ref={(ref) => {
           setGameEngine(ref);
         }}
         systems={[Physics]}
         entities={entities()}
-        onEvent={e => {
+        onEvent={(e) => {
           switch (e.type) {
-            case 'game_over':
+            case "game_over":
               setRunning(false);
               gameEngine.stop();
               setCurrentPoints(0);
+              // soundHandle("die");
               break;
-            case 'new_point':
+            case "new_point":
               setCurrentPoints(currentPoints + 1);
               break;
           }
         }}
         running={running}
-        style={styles.gameEngine}></GameEngine>
+        style={styles.gameEngine}
+      ></GameEngine>
       {!running ? (
-        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <View
+          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
+        >
           <TouchableOpacity
             style={styles.btn}
             onPress={() => {
               setCurrentPoints(0);
               setRunning(true);
               gameEngine.swap(entities());
-            }}>
+            }}
+          >
             <Text style={styles.text}>START GAME</Text>
           </TouchableOpacity>
         </View>
@@ -73,19 +85,20 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   points: {
+    fontWeight: "500",
     fontSize: 24,
-    textAlign: 'center',
+    textAlign: "center",
     margin: 20,
-    color: 'black',
+    color: "black",
   },
   gameEngine: {
-    position: 'absolute',
+    position: "absolute",
     top: 0,
     left: 0,
     right: 0,
     bottom: 0,
   },
-  btnView: {flex: 1, justifyContent: 'center', alignItems: 'center'},
-  btn: {backgroundColor: 'black', paddingHorizontal: '5%'},
-  text: {fontWeight: 'bold', color: 'white', fontSize: 30},
+  btnView: { flex: 1, justifyContent: "center", alignItems: "center" },
+  btn: { backgroundColor: "black", paddingHorizontal: "5%" },
+  text: { fontWeight: "bold", color: "white", fontSize: 30 },
 });

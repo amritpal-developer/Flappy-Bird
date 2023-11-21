@@ -1,47 +1,37 @@
 import Matter from "matter-js";
 import { getPipeSizePosPair } from "./src/utils/random";
-import { Dimensions } from "react-native";
+import { Dimensions, Platform } from "react-native";
 import { useEffect } from "react";
 import Sound from "react-native-sound";
 const windowHeight = Dimensions.get("window").height;
 const windowWidth = Dimensions.get("window").width;
 const Physics = (entities, { touches, time, dispatch }) => {
-  Sound.setCategory("Playback");
-
-  var flap = new Sound("flap.mp3", Sound.MAIN_BUNDLE, (error) => {
-    if (error) {
-      console.log("failed to load the sound", error);
-      return;
-    }
-    // if loaded successfully
-    console.log(
-      "duration in seconds: " +
-        flap.getDuration() +
-        "number of channels: " +
-        flap.getNumberOfChannels()
-    );
-  });
-//   useEffect(() => {
-//     flap.setVolume(1);
-//     return () => {
-//       flap.release();
-//     };
-//   }, []);
-  let engine = entities.physics.engine;
-  const playPause = () => {
-    flap.setVolume(1);
-    flap.play((success) => {
-      if (success) {
-        console.log("successfully finished playing");
-      } else {
-        console.log("playback failed due to audio decoding errors");
+  function soundHandle(soundTitle) {
+    Sound.setCategory("Playback");
+    var flap = new Sound(soundTitle + ".mp3", Sound.MAIN_BUNDLE, (error) => {
+      if (error) {
+        console.log("failed to load the sound", error);
+        return;
       }
+     
+      flap.play(()=>{
+        flap.release();
+      });
+      // if loaded successfully
     });
-  };
+  }
+  //   useEffect(() => {
+  //     flap.setVolume(1);
+  //     return () => {
+  //       flap.release();
+  //     };
+  //   }, []);
+  let engine = entities.physics.engine;
+
   touches
     .filter((t) => t.type === "press")
     .forEach((t) => {
-      playPause();
+      soundHandle("flap");
       Matter.Body.setVelocity(entities.Bird.body, {
         x: 0,
         y: -8,
